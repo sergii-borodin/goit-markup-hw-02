@@ -1,0 +1,230 @@
+:root {
+  /* main */
+
+  /* text colors */
+  --main-color: #212121;
+  --second-txt-color: #757575;
+  --accent-txt-color: #2196f3;
+  --light-txt-color: #ffffff;
+  --second-accent-color: #ffffff99;
+
+  /* bg colors */
+  --main-bg-color: #2f303a;
+  --light-bg-color: #ffffff;
+  --accent-bg-color: #f5f4fa;
+
+  /* fonts */
+  --main-font: Roboto Regular, sans-serif;
+  --second-font: Roboto Bold, sans-serif;
+  --third-font: third, sans-serif;
+
+  /* portfolio */
+
+  /*text color  */
+}
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 3%;
+  color: var(--main-color);
+}
+
+.link {
+  text-decoration: inherit;
+  color: currentColor;
+}
+.list {
+  list-style: none;
+}
+.address {
+  all: unset;
+}
+/* header start */
+
+.logo {
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-web {
+  color: var(--accent-txt-color);
+}
+.nav-item {
+  font-weight: Medium;
+
+  line-height: calc(16 / 14);
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-txt-color);
+}
+.nav-link.activ {
+  color: var(--accent-txt-color);
+}
+.contacts-link {
+  color: var(--second-txt-color);
+  font-weight: Medium;
+
+  line-height: calc(16 / 14);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-txt-color);
+}
+
+/* header end */
+
+/* main page start */
+.hero {
+  background-color: var(--main-bg-color);
+}
+.hero-titel {
+  text-transform: uppercase;
+  font-weight: Black;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 6%;
+  color: var(--light-txt-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  line-height: 160%;
+  background-color: var(--accent-txt-color);
+  color: var(--light-txt-color);
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: Center;
+  letter-spacing: 6%;
+}
+/* main page end */
+/* footer start */
+
+.priority-titel {
+  font-weight: Bold;
+
+  line-height: calc(16 / 14);
+  line-height: 100%;
+  text-align: Left;
+  vertical-align: Top;
+
+  color: var(--main-color);
+}
+.priority-text {
+  font-weight: Regular;
+  line-height: calc(24 / 14);
+  line-height: 146%;
+  color: var(--second-txt-color);
+}
+.work-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  line-height: 100%;
+  text-align: Center;
+  vertical-align: Top;
+}
+.team-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  line-height: 100%;
+  text-align: Center;
+  vertical-align: Top;
+}
+.employees {
+  background-color: var(--accent-bg-color);
+}
+.team-name {
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  line-height: 100%;
+  text-align: Center;
+  vertical-align: Top;
+  color: var(--main-color);
+}
+.team-profession {
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  line-height: 100%;
+  text-align: Center;
+  vertical-align: Top;
+  color: var(--second-txt-color);
+}
+
+/* footer start */
+.footer {
+  background-color: var(--main-bg-color);
+}
+.footer-logo {
+  color: var(--light-txt-color);
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  line-height: 100%;
+  text-align: Left;
+  vertical-align: Top;
+}
+
+.address-place {
+  /* font-weight: Regular; */
+  line-height: calc(24 / 14);
+  line-height: 146%;
+  text-align: Left;
+  vertical-align: Top;
+  color: var(--light-txt-color);
+}
+.address-place:hover,
+.address-place:focus {
+  color: var(--accent-txt-color);
+}
+.address-link {
+  list-style: none;
+  line-height: calc(24 / 14);
+  line-height: 146%;
+  text-align: Left;
+  vertical-align: Top;
+  color: var(--second-accent-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-txt-color);
+}
+/* footer end */
+
+/* PORTFOLIO  MAIN START*/
+
+.content-btn {
+  font-family: inherit;
+  font-style: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}
+.content-btn:hover,
+.content-btn:focus {
+  background-color: var(--accent-txt-color);
+}
+
+.portfolio-titel {
+  font-style: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  line-height: 171%;
+}
+.portfolio-text {
+  font-style: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  line-height: 160%;
+  color: var(--second-txt-color);
+}
+/* PORTFOLIO MAIN END */
